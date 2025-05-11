@@ -22,57 +22,40 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="app.vercel.ejstore21.twa">
 
-    
-        <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-    
-
-    
-
-    
-
-    
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
 
     <application
         android:name="Application"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/appName"
-        
         android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
-        
         android:supportsRtl="true"
-        android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
 
         <meta-data
             android:name="asset_statements"
             android:resource="@string/assetStatements" />
 
-        
-            <meta-data
-                android:name="web_manifest_url"
-                android:value="@string/webManifestUrl" />
-        
+        <meta-data
+            android:name="web_manifest_url"
+            android:value="@string/webManifestUrl" />
 
         <meta-data
             android:name="twa_generator"
             android:value="@string/generatorApp" />
 
-        
-
-        
-
-        
-            <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity">
+        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity">
             <meta-data
                 android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
                 android:value="@string/launchUrl" />
-            </activity>
-        
+        </activity>
 
         <activity android:name="LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:label="@string/launcherName"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
             <meta-data android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="@string/launchUrl" />
 
@@ -117,19 +100,11 @@
             <meta-data android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
                 android:value="@string/fallbackType" />
 
-            
-
-            
             <meta-data android:name="android.support.customtabs.trusted.DISPLAY_MODE"
                 android:value="immersive" />
-            
 
             <meta-data android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
                 android:value="@string/orientation"/>
-
-            
-
-            
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -142,13 +117,8 @@
                 <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:scheme="https"
                     android:host="@string/hostName"
-                
                 />
             </intent-filter>
-
-            
-
-            
         </activity>
 
         <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
@@ -171,11 +141,9 @@
             android:enabled="@bool/enableNotification"
             android:exported="@bool/enableNotification">
 
-            
-                <meta-data
-                    android:name="android.support.customtabs.trusted.SMALL_ICON"
-                    android:resource="@drawable/ic_notification_icon" />
-            
+            <meta-data
+                android:name="android.support.customtabs.trusted.SMALL_ICON"
+                android:resource="@drawable/ic_notification_icon" />
 
             <intent-filter>
                 <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE"/>
@@ -183,13 +151,9 @@
             </intent-filter>
         </service>
 
-        
-            <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-        
+        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
 
-        
-            <activity android:name=
-        "com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity"/>
+        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity"/>
         
     </application>
 </manifest>
