@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-20:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-21:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/res/values-en-rAU/values-en-rAU.xml",

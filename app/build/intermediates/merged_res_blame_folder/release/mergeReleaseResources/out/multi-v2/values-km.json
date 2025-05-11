@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-20:/values-km/values-km.xml",
+            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-21:/values-km/values-km.xml",
             "map": [
                 {
-                    "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/02e37f92c71ffadabef41ae6f5feca22/transformed/play-services-base-18.1.0/res/values-km/values.xml",
+                    "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/ae677043533cabd0916a847e6ee2f818/transformed/play-services-base-18.3.0/res/values-km/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/d176d6696a4772b4ce2a6021c61f9202/transformed/play-services-basement-18.1.0/res/values-km/values.xml",
+                    "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/c4c92864853dedbea91a3849cbe0f88d/transformed/play-services-basement-18.3.0/res/values-km/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

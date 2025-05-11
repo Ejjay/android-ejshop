@@ -24,7 +24,7 @@
     <!-- Value from default config. -->
     <integer name="splashScreenFadeOutDuration">300</integer>
     <!-- Value from default config. -->
-    <string name="appName" translatable="false">EJ Shop</string>
+    <string name="appName" translatable="false">Ej Shop - Test</string>
     <!-- Value from default config. -->
     <string name="fallbackType" translatable="false">customtabs</string>
     <!-- Value from default config. -->
@@ -38,7 +38,7 @@
     <!-- Value from default config. -->
     <string name="launcherName" translatable="false">EJ Shop</string>
     <!-- Value from default config. -->
-    <string name="orientation" translatable="false">default</string>
+    <string name="orientation" translatable="false">portrait</string>
     <!-- Value from default config. -->
     <string name="providerAuthority" translatable="false">app.vercel.ejstore21.twa.fileprovider</string>
     <!-- Value from default config. -->

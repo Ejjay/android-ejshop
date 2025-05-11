@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-20:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "app.vercel.ejstore21.twa.app-mergeReleaseResources-21:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/home/christsonalloso391/.gradle/caches/8.11.1/transforms/1ea99c3747f63feea8f0bafeb64dfd66/transformed/browser-1.9.0-alpha02/res/values-en-rCA/values-en-rCA.xml",

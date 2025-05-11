@@ -11,7 +11,7 @@
     <color name="navigationDividerColorDark">#000000</color>
     <color name="shortcut_background">#F5F5F5</color>
     <integer name="splashScreenFadeOutDuration">300</integer>
-    <string name="appName" translatable="false">EJ Shop</string>
+    <string name="appName" translatable="false">Ej Shop - Test</string>
     <string name="assetStatements">
     [{
         \"relation\": [\"delegate_permission/common.handle_all_urls\"],
@@ -28,7 +28,7 @@
     <string name="hostName" translatable="false">ejstore21.vercel.app</string>
     <string name="launchUrl" translatable="false">https://ejstore21.vercel.app/</string>
     <string name="launcherName" translatable="false">EJ Shop</string>
-    <string name="orientation" translatable="false">default</string>
+    <string name="orientation" translatable="false">portrait</string>
     <string name="providerAuthority" translatable="false">app.vercel.ejstore21.twa.fileprovider</string>
     <string name="webManifestUrl" translatable="false">https://ejstore21.vercel.app/manifest.json</string>
 </resources>

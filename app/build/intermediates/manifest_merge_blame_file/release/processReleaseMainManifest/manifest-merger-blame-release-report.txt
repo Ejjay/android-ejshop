@@ -56,330 +56,444 @@
 43-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:17-146:19
 43-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:23-45
 44        </intent>
-45    </queries>
-46
-47    <permission
-47-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-48        android:name="app.vercel.ejstore21.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-48-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-49        android:protectionLevel="signature" />
-49-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-50
-51    <uses-permission android:name="app.vercel.ejstore21.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-51-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-51-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-52
-53    <application
-53-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:35:5-194:19
-54        android:name="app.vercel.ejstore21.twa.Application"
-54-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:36:9-35
-55        android:allowBackup="true"
-55-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:37:9-35
-56        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-56-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
-57        android:extractNativeLibs="true"
-58        android:icon="@mipmap/ic_launcher"
-58-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:38:9-43
-59        android:label="@string/appName"
-59-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:39:9-40
-60        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
-60-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:41:9-105
-61        android:supportsRtl="true"
-61-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:43:9-35
-62        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-62-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:44:9-68
-63        <meta-data
-63-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:46:9-48:58
-64            android:name="asset_statements"
-64-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:47:13-44
-65            android:resource="@string/assetStatements" />
-65-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:48:13-55
-66        <meta-data
-66-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:51:13-53:58
-67            android:name="web_manifest_url"
-67-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:52:17-48
-68            android:value="@string/webManifestUrl" />
-68-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:53:17-55
-69        <meta-data
-69-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:56:9-58:52
-70            android:name="twa_generator"
-70-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:57:13-41
-71            android:value="@string/generatorApp" />
-71-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:58:13-49
-72
-73        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
-73-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:65:13-69:24
-73-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:65:23-104
-74            <meta-data
-74-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:66:13-68:53
-75                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
-75-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:67:17-83
-76                android:value="@string/launchUrl" />
-76-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:68:17-50
-77        </activity>
-78        <activity
-78-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:72:9-152:20
-79            android:name="app.vercel.ejstore21.twa.LauncherActivity"
-79-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:72:19-50
-80            android:alwaysRetainTaskState="true"
-80-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:73:13-49
-81            android:exported="true"
-81-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:75:13-36
-82            android:label="@string/launcherName" >
-82-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:74:13-49
-83            <meta-data
-83-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:76:13-77:53
-84                android:name="android.support.customtabs.trusted.DEFAULT_URL"
-84-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:76:24-85
-85                android:value="@string/launchUrl" />
-85-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:77:17-50
-86            <meta-data
-86-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:79:13-81:58
-87                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-87-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:80:17-83
-88                android:resource="@color/colorPrimary" />
-88-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:81:17-55
-89            <meta-data
-89-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:83:13-85:62
-90                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
-90-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:84:17-88
-91                android:resource="@color/colorPrimaryDark" />
-91-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:85:17-59
-92            <meta-data
-92-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:87:13-89:61
-93                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-93-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:88:17-87
-94                android:resource="@color/navigationColor" />
-94-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:89:17-58
-95            <meta-data
-95-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:91:13-93:65
-96                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
-96-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:92:17-92
-97                android:resource="@color/navigationColorDark" />
-97-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:93:17-62
-98            <meta-data
-98-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:95:13-97:68
-99                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
-99-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:96:17-84
-100                android:resource="@color/navigationDividerColor" />
-100-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:97:17-65
-101            <meta-data
-101-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:99:13-101:72
-102                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
-102-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:100:17-89
-103                android:resource="@color/navigationDividerColorDark" />
-103-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:101:17-69
-104            <meta-data
-104-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:103:13-104:54
-105                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
-105-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:103:24-95
-106                android:resource="@drawable/splash" />
-106-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:104:17-52
-107            <meta-data
-107-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:106:13-107:60
-108                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-108-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:106:24-104
-109                android:resource="@color/backgroundColor" />
-109-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:107:17-58
-110            <meta-data
-110-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:109:13-110:71
-111                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
-111-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:109:24-105
-112                android:value="@integer/splashScreenFadeOutDuration" />
-112-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:110:17-69
-113            <meta-data
-113-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:112:13-113:60
-114                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
-114-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:112:24-97
-115                android:value="@string/providerAuthority" />
-115-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:113:17-58
-116            <meta-data
-116-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:13-97
-117                android:name="android.app.shortcuts"
-117-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:24-60
-118                android:resource="@xml/shortcuts" />
-118-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:61-94
-119            <meta-data
-119-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:117:13-118:56
-120                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
-120-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:117:24-91
-121                android:value="@string/fallbackType" />
-121-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:118:17-53
-122            <meta-data
-122-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:123:13-124:45
-123                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
-123-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:123:24-86
-124                android:value="immersive" />
-124-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:124:17-42
-125            <meta-data
-125-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:127:13-128:54
-126                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
-126-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:127:24-92
-127                android:value="@string/orientation" />
-127-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:128:17-52
-128
-129            <intent-filter>
-129-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:134:13-137:29
-130                <action android:name="android.intent.action.MAIN" />
-130-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:135:17-69
-130-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:135:25-66
-131
-132                <category android:name="android.intent.category.LAUNCHER" />
-132-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:136:17-77
-132-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:136:27-74
-133            </intent-filter>
-134            <intent-filter android:autoVerify="true" >
-134-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:139:13-147:29
-134-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:139:28-53
-135                <action android:name="android.intent.action.VIEW" />
-135-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:140:17-68
-135-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:140:25-66
+45        <intent>
+45-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:13:9-15:18
+46            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+46-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:14:13-91
+46-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:14:21-88
+47        </intent>
+48    </queries>
+49
+50    <uses-permission android:name="com.android.vending.BILLING" />
+50-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:10:5-67
+50-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:10:22-64
+51
+52    <permission
+52-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+53        android:name="app.vercel.ejstore21.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+53-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+54        android:protectionLevel="signature" />
+54-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+55
+56    <uses-permission android:name="app.vercel.ejstore21.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+56-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+56-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+57    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+58    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+58-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:5-79
+58-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:24:22-76
+59    <uses-permission android:name="android.permission.INTERNET" />
+59-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:5-67
+59-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:25:22-64
+60
+61    <application
+61-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:35:5-219:19
+62        android:name="app.vercel.ejstore21.twa.Application"
+62-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:36:9-35
+63        android:allowBackup="true"
+63-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:37:9-35
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.13.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+65        android:extractNativeLibs="true"
+66        android:icon="@mipmap/ic_launcher"
+66-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:38:9-43
+67        android:label="@string/appName"
+67-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:39:9-40
+68        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+68-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:41:9-105
+69        android:supportsRtl="true"
+69-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:43:9-35
+70        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+70-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:44:9-68
+71        <meta-data
+71-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:46:9-48:58
+72            android:name="asset_statements"
+72-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:47:13-44
+73            android:resource="@string/assetStatements" />
+73-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:48:13-55
+74        <meta-data
+74-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:51:13-53:58
+75            android:name="web_manifest_url"
+75-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:52:17-48
+76            android:value="@string/webManifestUrl" />
+76-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:53:17-55
+77        <meta-data
+77-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:56:9-58:52
+78            android:name="twa_generator"
+78-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:57:13-41
+79            android:value="@string/generatorApp" />
+79-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:58:13-49
+80
+81        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+81-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:65:13-69:24
+81-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:65:23-104
+82            <meta-data
+82-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:66:13-68:53
+83                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+83-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:67:17-83
+84                android:value="@string/launchUrl" />
+84-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:68:17-50
+85        </activity>
+86        <activity
+86-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:72:9-152:20
+87            android:name="app.vercel.ejstore21.twa.LauncherActivity"
+87-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:72:19-50
+88            android:alwaysRetainTaskState="true"
+88-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:73:13-49
+89            android:exported="true"
+89-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:75:13-36
+90            android:label="@string/launcherName" >
+90-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:74:13-49
+91            <meta-data
+91-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:76:13-77:53
+92                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+92-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:76:24-85
+93                android:value="@string/launchUrl" />
+93-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:77:17-50
+94            <meta-data
+94-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:79:13-81:58
+95                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+95-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:80:17-83
+96                android:resource="@color/colorPrimary" />
+96-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:81:17-55
+97            <meta-data
+97-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:83:13-85:62
+98                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+98-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:84:17-88
+99                android:resource="@color/colorPrimaryDark" />
+99-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:85:17-59
+100            <meta-data
+100-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:87:13-89:61
+101                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+101-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:88:17-87
+102                android:resource="@color/navigationColor" />
+102-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:89:17-58
+103            <meta-data
+103-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:91:13-93:65
+104                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+104-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:92:17-92
+105                android:resource="@color/navigationColorDark" />
+105-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:93:17-62
+106            <meta-data
+106-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:95:13-97:68
+107                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+107-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:96:17-84
+108                android:resource="@color/navigationDividerColor" />
+108-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:97:17-65
+109            <meta-data
+109-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:99:13-101:72
+110                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+110-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:100:17-89
+111                android:resource="@color/navigationDividerColorDark" />
+111-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:101:17-69
+112            <meta-data
+112-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:103:13-104:54
+113                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+113-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:103:24-95
+114                android:resource="@drawable/splash" />
+114-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:104:17-52
+115            <meta-data
+115-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:106:13-107:60
+116                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+116-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:106:24-104
+117                android:resource="@color/backgroundColor" />
+117-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:107:17-58
+118            <meta-data
+118-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:109:13-110:71
+119                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+119-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:109:24-105
+120                android:value="@integer/splashScreenFadeOutDuration" />
+120-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:110:17-69
+121            <meta-data
+121-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:112:13-113:60
+122                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+122-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:112:24-97
+123                android:value="@string/providerAuthority" />
+123-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:113:17-58
+124            <meta-data
+124-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:13-97
+125                android:name="android.app.shortcuts"
+125-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:24-60
+126                android:resource="@xml/shortcuts" />
+126-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:115:61-94
+127            <meta-data
+127-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:117:13-118:56
+128                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+128-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:117:24-91
+129                android:value="@string/fallbackType" />
+129-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:118:17-53
+130            <meta-data
+130-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:123:13-124:45
+131                android:name="android.support.customtabs.trusted.DISPLAY_MODE"
+131-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:123:24-86
+132                android:value="immersive" />
+132-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:124:17-42
+133            <meta-data
+133-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:127:13-128:54
+134                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+134-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:127:24-92
+135                android:value="@string/orientation" />
+135-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:128:17-52
 136
-137                <category android:name="android.intent.category.DEFAULT" />
-137-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:17-76
-137-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:27-73
-138                <category android:name="android.intent.category.BROWSABLE" />
-138-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:142:17-77
-138-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:142:27-75
+137            <intent-filter>
+137-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:134:13-137:29
+138                <action android:name="android.intent.action.MAIN" />
+138-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:135:17-69
+138-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:135:25-66
 139
-140                <data
-140-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:17-146:19
-141                    android:host="@string/hostName"
-141-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:144:21-52
-142                    android:scheme="https" />
-142-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:23-45
-143            </intent-filter>
-144        </activity>
-145        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
-145-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:154:9-90
-145-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:154:19-87
-146        <activity
-146-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:156:9-157:62
-147            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
-147-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:156:19-97
-148            android:configChanges="orientation|screenSize" />
-148-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:157:13-59
-149
-150        <provider
-150-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:159:9-167:20
-151            android:name="androidx.core.content.FileProvider"
-151-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:160:13-62
-152            android:authorities="@string/providerAuthority"
-152-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:161:13-60
-153            android:exported="false"
-153-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:163:13-37
-154            android:grantUriPermissions="true" >
-154-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:162:13-47
-155            <meta-data
-155-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:164:13-166:53
-156                android:name="android.support.FILE_PROVIDER_PATHS"
-156-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:165:17-67
-157                android:resource="@xml/filepaths" />
-157-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:166:17-50
-158        </provider>
-159
-160        <service
-160-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:169:9-184:19
-161            android:name="app.vercel.ejstore21.twa.DelegationService"
-161-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:170:13-46
-162            android:enabled="@bool/enableNotification"
-162-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:171:13-55
-163            android:exported="@bool/enableNotification" >
-163-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:172:13-56
-164            <meta-data
-164-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:175:17-177:73
-165                android:name="android.support.customtabs.trusted.SMALL_ICON"
-165-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:176:21-81
-166                android:resource="@drawable/ic_notification_icon" />
-166-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:177:21-70
+140                <category android:name="android.intent.category.LAUNCHER" />
+140-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:136:17-77
+140-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:136:27-74
+141            </intent-filter>
+142            <intent-filter android:autoVerify="true" >
+142-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:139:13-147:29
+142-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:139:28-53
+143                <action android:name="android.intent.action.VIEW" />
+143-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:140:17-68
+143-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:140:25-66
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:17-76
+145-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:142:17-77
+146-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:142:27-75
+147
+148                <data
+148-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:17-146:19
+149                    android:host="@string/hostName"
+149-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:144:21-52
+150                    android:scheme="https" />
+150-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:143:23-45
+151            </intent-filter>
+152        </activity>
+153        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+153-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:154:9-90
+153-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:154:19-87
+154        <activity
+154-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:156:9-157:62
+155            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+155-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:156:19-97
+156            android:configChanges="orientation|screenSize" />
+156-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:157:13-59
+157
+158        <provider
+158-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:159:9-167:20
+159            android:name="androidx.core.content.FileProvider"
+159-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:160:13-62
+160            android:authorities="@string/providerAuthority"
+160-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:161:13-60
+161            android:exported="false"
+161-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:163:13-37
+162            android:grantUriPermissions="true" >
+162-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:162:13-47
+163            <meta-data
+163-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:164:13-166:53
+164                android:name="android.support.FILE_PROVIDER_PATHS"
+164-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:165:17-67
+165                android:resource="@xml/filepaths" />
+165-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:166:17-50
+166        </provider>
 167
-168            <intent-filter>
-168-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:180:13-183:29
-169                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
-169-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:181:17-105
-169-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:181:25-103
-170
-171                <category android:name="android.intent.category.DEFAULT" />
-171-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:17-76
-171-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:27-73
-172            </intent-filter>
-173        </service>
-174
-175        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
-175-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:187:13-118
-175-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:187:23-115
-176        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
-176-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:191:13-192:89
-176-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:191:23-123
-177        <activity
-177-->[com.google.android.gms:play-services-base:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/02e37f92c71ffadabef41ae6f5feca22/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-178            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-178-->[com.google.android.gms:play-services-base:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/02e37f92c71ffadabef41ae6f5feca22/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-179            android:exported="false"
-179-->[com.google.android.gms:play-services-base:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/02e37f92c71ffadabef41ae6f5feca22/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-180            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-180-->[com.google.android.gms:play-services-base:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/02e37f92c71ffadabef41ae6f5feca22/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-181
-182        <meta-data
-182-->[com.google.android.gms:play-services-basement:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/d176d6696a4772b4ce2a6021c61f9202/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-183            android:name="com.google.android.gms.version"
-183-->[com.google.android.gms:play-services-basement:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/d176d6696a4772b4ce2a6021c61f9202/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-184            android:value="@integer/google_play_services_version" />
-184-->[com.google.android.gms:play-services-basement:18.1.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/d176d6696a4772b4ce2a6021c61f9202/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-185
-186        <provider
-186-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
-187            android:name="androidx.startup.InitializationProvider"
-187-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:25:13-67
-188            android:authorities="app.vercel.ejstore21.twa.androidx-startup"
-188-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:26:13-68
-189            android:exported="false" >
-189-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:27:13-37
-190            <meta-data
-190-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
-191                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-191-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
-192                android:value="androidx.startup" />
-192-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
-193        </provider>
-194
-195        <receiver
-195-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
-196            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-196-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
-197            android:directBootAware="false"
-197-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
-198            android:enabled="true"
-198-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
-199            android:exported="true"
-199-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
-200            android:permission="android.permission.DUMP" >
-200-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
-201            <intent-filter>
-201-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
-202                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-202-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
-202-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
-203            </intent-filter>
-204            <intent-filter>
-204-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
-205                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-205-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
-205-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
-206            </intent-filter>
-207            <intent-filter>
-207-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
-208                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-208-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
-208-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
-209            </intent-filter>
-210            <intent-filter>
-210-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
-211                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-211-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
-211-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
-212            </intent-filter>
-213        </receiver>
-214    </application>
-215
-216</manifest>
+168        <service
+168-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:169:9-184:19
+169            android:name="app.vercel.ejstore21.twa.DelegationService"
+169-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:170:13-46
+170            android:enabled="@bool/enableNotification"
+170-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:171:13-55
+171            android:exported="@bool/enableNotification" >
+171-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:172:13-56
+172            <meta-data
+172-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:175:17-177:73
+173                android:name="android.support.customtabs.trusted.SMALL_ICON"
+173-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:176:21-81
+174                android:resource="@drawable/ic_notification_icon" />
+174-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:177:21-70
+175
+176            <intent-filter>
+176-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:180:13-183:29
+177                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+177-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:181:17-105
+177-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:181:25-103
+178
+179                <category android:name="android.intent.category.DEFAULT" />
+179-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:17-76
+179-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:141:27-73
+180            </intent-filter>
+181        </service>
+182
+183        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+183-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:187:13-118
+183-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:187:23-115
+184        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
+184-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:191:13-192:89
+184-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:191:23-123
+185        <activity
+185-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:195:9-208:20
+186            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentActivity"
+186-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:196:13-96
+187            android:configChanges="keyboardHidden|keyboard|orientation|screenLayout|screenSize"
+187-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:198:13-96
+188            android:exported="true"
+188-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:199:13-36
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+189-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:197:13-72
+190            <intent-filter>
+190-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:201:13-203:29
+191                <action android:name="org.chromium.intent.action.PAY" />
+191-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:202:17-73
+191-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:202:25-70
+192            </intent-filter>
+193
+194            <meta-data
+194-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:205:13-207:67
+195                android:name="org.chromium.default_payment_method_name"
+195-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:206:17-72
+196                android:value="https://play.google.com/billing" />
+196-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:207:17-64
+197        </activity>
+198
+199        <!-- This service checks who calls it at runtime. -->
+200        <service
+200-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:211:9-217:19
+201            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentService"
+201-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:212:13-95
+202            android:exported="true" >
+202-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:213:13-36
+203            <intent-filter>
+203-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:214:13-216:29
+204                <action android:name="org.chromium.intent.action.IS_READY_TO_PAY" />
+204-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:215:17-85
+204-->/home/christsonalloso391/wix-store/app/src/main/AndroidManifest.xml:215:25-82
+205            </intent-filter>
+206        </service>
+207
+208        <meta-data
+208-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:19:9-21:37
+209            android:name="com.google.android.play.billingclient.version"
+209-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:20:13-73
+210            android:value="6.2.1" />
+210-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:21:13-34
+211
+212        <activity
+212-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:23:9-27:75
+213            android:name="com.android.billingclient.api.ProxyBillingActivity"
+213-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:24:13-78
+214            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+214-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:25:13-96
+215            android:exported="false"
+215-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:26:13-37
+216            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+216-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:27:13-72
+217        <activity
+217-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:28:9-32:75
+218            android:name="com.android.billingclient.api.ProxyBillingActivityV2"
+218-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:29:13-80
+219            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+219-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:30:13-96
+220            android:exported="false"
+220-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:31:13-37
+221            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+221-->[com.android.billingclient:billing:6.2.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/39816346c7abed082c497ab24c6d2a2e/transformed/billing-6.2.1/AndroidManifest.xml:32:13-72
+222        <activity
+222-->[com.google.android.gms:play-services-base:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/ae677043533cabd0916a847e6ee2f818/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+223            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+223-->[com.google.android.gms:play-services-base:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/ae677043533cabd0916a847e6ee2f818/transformed/play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-base:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/ae677043533cabd0916a847e6ee2f818/transformed/play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+225            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+225-->[com.google.android.gms:play-services-base:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/ae677043533cabd0916a847e6ee2f818/transformed/play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+226
+227        <meta-data
+227-->[com.google.android.gms:play-services-basement:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/c4c92864853dedbea91a3849cbe0f88d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+228            android:name="com.google.android.gms.version"
+228-->[com.google.android.gms:play-services-basement:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/c4c92864853dedbea91a3849cbe0f88d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+229            android:value="@integer/google_play_services_version" />
+229-->[com.google.android.gms:play-services-basement:18.3.0] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/c4c92864853dedbea91a3849cbe0f88d/transformed/play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+230
+231        <service
+231-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+232            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+232-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+233            android:exported="false" >
+233-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+234            <meta-data
+234-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+235                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+235-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+236                android:value="cct" />
+236-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/85bc3f8cc97bd85b10d760e1ca7886a3/transformed/transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+237        </service>
+238        <service
+238-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+239            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+239-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+240            android:exported="false"
+240-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+241            android:permission="android.permission.BIND_JOB_SERVICE" >
+241-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+242        </service>
+243
+244        <receiver
+244-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+245            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+245-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+246            android:exported="false" />
+246-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/390580f802b798735a90189ae7e85163/transformed/transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+247
+248        <provider
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+249            android:name="androidx.startup.InitializationProvider"
+249-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:25:13-67
+250            android:authorities="app.vercel.ejstore21.twa.androidx-startup"
+250-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:26:13-68
+251            android:exported="false" >
+251-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:27:13-37
+252            <meta-data
+252-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+253                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+253-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+254                android:value="androidx.startup" />
+254-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+255        </provider>
+256
+257        <receiver
+257-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+258            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+258-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+259            android:directBootAware="false"
+259-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+260            android:enabled="true"
+260-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+261            android:exported="true"
+261-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+262            android:permission="android.permission.DUMP" >
+262-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+263            <intent-filter>
+263-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+264                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+264-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+265            </intent-filter>
+266            <intent-filter>
+266-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+267                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+267-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+268            </intent-filter>
+269            <intent-filter>
+269-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+270                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+270-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+271            </intent-filter>
+272            <intent-filter>
+272-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+273                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+273-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/christsonalloso391/.gradle/caches/8.11.1/transforms/bb4a0d32d1b17a1dcea0cf71d2bde5e0/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+274            </intent-filter>
+275        </receiver>
+276    </application>
+277
+278</manifest>
